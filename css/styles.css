@@ -1,0 +1,168 @@
+body{
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  weight: 400, 700;
+  background-color: hsl(229, 57%, 11%);
+
+}
+
+
+
+.desktop-image{
+  width: 1365px;
+  height: 320px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.inner-container{
+  background-color:  hsl(228, 56%, 26%);
+  position: absolute;
+  left: 230px;
+  top: 225px;
+  border-radius: 5px 90px 5px 5px;
+  height: 180px;
+  width: 350px;
+}
+
+.inner-container .image-files{
+  background-color: hsl(229, 57%, 11%);
+  padding: 10px;
+  height: 18px;
+  width: 18px;
+  border-radius: 8px;
+  position: relative;
+  right: 90px;
+  top: 100px;
+  margin: 5px;
+}
+
+.inner-container .image-logo{
+  height: 40px;
+  width: 120px;
+  position: relative;
+  top: 30px;
+  left: 40px;
+
+}
+
+
+.inner-container-second{
+  background-color: hsl(228, 56%, 26%);
+  position: relative;
+  top: 225px;
+  left: 600px;
+  height: 150px;
+  width: 600px;
+  color: #dddddd;
+  border-radius: 5px;
+}
+
+.inner-container-second .bar{
+  margin-top: 30px;
+}
+
+.inner-container-second .bar p{
+  line-height: 40px;
+  color: hsl(243, 100%, 93%);
+  position: relative;
+  left: 20px;
+  top: 40px;
+}
+
+.inner-container-second .bar .bar-progress{
+  width: 510px;
+  height: 20px;
+  border-radius: 15px;
+  border: 2px solid transparent;
+  background: hsl(229, 57%, 11%);
+  position: relative;
+  left: 20px;
+  top: 27px;
+}
+
+.inner-container-second .bar .bar-progress .used{
+  width: 84%;
+  height: 20px;
+  border-radius: 15px;
+  background: linear-gradient(to right, hsl(6, 100%, 80%),  hsl(335, 100%, 65%));
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.inner-container-second .bar .bar-progress .used .ball{
+  background: white;
+  border: 2px solid transparent;
+  width: 13px;
+  height: 13px;
+  border-radius: 15px;
+  margin-right: 2px;
+}
+
+.inner-container-second .bar .capacity{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 65px;
+  position: relative;
+  top: 35px;
+
+}
+
+.inner-container-second .bar .capacity span{
+  font-size: 12px;
+  font-weight: bold;
+
+}
+
+
+.inner-container-second .ballon{
+  background-color: white;
+  border-radius: 15px 15px 0 15px;
+  width: 135px;
+  height: 60px;
+  position: relative;
+  left: 400px;
+  bottom: 160px;
+}
+
+.inner-container-second .ballon::after{
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-left: 20px solid transparent;
+  border-top: 20px solid white;
+  bottom: -20px;
+  left: 85%;
+}
+
+.inner-container-second .ballon .letters-ballon{
+  color: #888888;
+  font-size: 10px;
+  position: relative;
+  left: 75px;
+  bottom: 40px;
+  text-transform: uppercase;
+}
+
+.inner-container-second .ballon .numbers-ballon{
+  color: black;
+  font-size: 30px;
+  position: relative;
+  left: 20px;
+  top: 10px;
+
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: relative;
+  top: 250px;
+
+ }
+.attribution a { color: hsl(228, 45%, 44%); }
